@@ -2,22 +2,22 @@
 ![IMG_5776](https://github.com/user-attachments/assets/86b2651c-4b49-4ec5-ae78-023b01e46a15)
 
 # Omarchy Mac — Dual Boot Installation
+
 A concise, beginner-friendly guide to install Omarchy Mac (Asahi Alarm + Omarchy) alongside macOS on Apple Silicon (M1/M2).
 
-## **[Omarchy Mac Fedora](https://github.com/malik-na/omarchy-mac-fedora)** is here!
+> **Continuation fork.** The original [`malik-na/omarchy-mac`](https://github.com/malik-na/omarchy-mac) was deleted along with its maintainer's GitHub account in mid‑2026. This repository preserves the most complete known snapshot of that work and is being kept in sync with upstream [`basecamp/omarchy`](https://github.com/basecamp/omarchy). It is not officially affiliated with the original project.
 
-_This project is not optimized for Parallels or VMs_
+_This project is not optimized for Parallels or VMs._
 
-[![License](https://img.shields.io/github/license/malik-na/omarchy-mac)](LICENSE) [![Stars](https://img.shields.io/github/stars/malik-na/omarchy-mac?style=social)](https://github.com/malik-na/omarchy-mac/stargazers)
+[![License](https://img.shields.io/github/license/scottjones/omarchy-mac)](LICENSE) [![Stars](https://img.shields.io/github/stars/scottjones/omarchy-mac?style=social)](https://github.com/scottjones/omarchy-mac/stargazers)
 
 ---
 
 ## Quick links
 
 - Start installer — `curl https://asahi-alarm.org/installer-bootstrap.sh | sh`
-- External monitor guide — https://github.com/malik-na/omarchy-mac/discussions/73
-- Support the project — https://buymeacoffee.com/malik2015no
-- Discord — https://discord.gg/KNQRk7dMzy
+- Upstream Omarchy — https://omarchy.org/
+- Asahi Linux device support — https://asahilinux.org/fedora/#device-support
 
 ---
 
@@ -33,10 +33,9 @@ _This project is not optimized for Parallels or VMs_
 - [Post‑install tasks](#post-install-tasks)
 - [Troubleshooting & FAQ](#troubleshooting--faq)
 - [Removal (uninstall)](#removal-uninstall)
-- [Support](#support)
 - [External resources](#external-resources)
 - [Acknowledgements](#acknowledgements)
-- [Omarchy Mac Contributors](#omarchy-mac-contributors)
+- [Contributors](#contributors)
 
 ---
 
@@ -163,7 +162,7 @@ cd yay
 makepkg -si
 
 # Clone and run Omarchy Mac installer
-git clone https://github.com/malik-na/omarchy-mac.git ~/.local/share/omarchy
+git clone https://github.com/scottjones/omarchy-mac.git ~/.local/share/omarchy
 cd ~/.local/share/omarchy
 bash install.sh
 ```
@@ -226,42 +225,30 @@ Choosing a US mirror is a practical fallback when local mirrors are unreliable.
 
 ## Removal (uninstall)
 
-There is no automatic uninstaller. Manual removal requires reversing the install steps. If you need help, open an issue. For a step‑by‑step visual walkthrough see:
-
-https://youtu.be/nMnWTq2H-N0?si=yzssSL-dBHa4x0l-
-
----
-
-## Support
-
-Consider supporting the project: [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/malik2015no)
+There is no automatic uninstaller. Manual removal requires reversing the install steps. If you need help, open an issue.
 
 ---
 
 ## External resources
 
+- Upstream Omarchy — https://omarchy.org/
 - Asahi Linux (device support) — https://asahilinux.org/fedora/#device-support
 - Asahi Alarm — https://asahi-alarm.org/
-- External monitor discussion — https://github.com/malik-na/omarchy-mac/discussions/73
-- Discord — https://discord.gg/KNQRk7dMzy
 
----
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=malik-na/omarchy-mac&type=date&legend=top-left)](https://www.star-history.com/#malik-na/omarchy-mac&type=date&legend=top-left)
 ---
 
 ## Acknowledgements
 
-Thanks to Asahi Linux and Asahi Alarm for enabling Linux on Apple Silicon, and to DHH for creating Omarchy.
-
-If this guide helped you, please star the repository and share feedback in issues or discussions. If you enjoy Omarchy Mac, please share your experience on Twitter/X by tagging [@tiredkebab](https://x.com/tiredkebab).
+- **DHH and the Omarchy contributors** for creating the upstream [`basecamp/omarchy`](https://github.com/basecamp/omarchy) distribution that this fork tracks.
+- **Asahi Linux and Asahi Alarm** for enabling Linux on Apple Silicon.
+- **Naeem Malik (`malik-na`)** — the original author of `omarchy-mac` and the bulk of the Apple Silicon enablement preserved in this fork's history. The account was deleted in mid‑2026; this fork exists to keep the work usable.
+- **tayowrld** — briefly stewarded the project after the original repo went away, including aarch64 menu fixes ([`tayowrld/omarchy-mac-menu`](https://github.com/tayowrld/omarchy-mac-menu)).
 
 ---
 
-## Omarchy Mac Contributors
+## Contributors
 
-Partial contributor list:
+Partial contributor list (from `omarchy-mac` history):
 
 - tayowrld — https://github.com/tayowrld
 - Owen Singh (itsOwen) — https://github.com/itsOwen
