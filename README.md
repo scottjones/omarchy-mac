@@ -5,7 +5,7 @@
 
 A concise, beginner-friendly guide to install Omarchy Mac (Asahi Alarm + Omarchy) alongside macOS on Apple Silicon (M1/M2).
 
-> **Continuation fork.** The original [`malik-na/omarchy-mac`](https://github.com/malik-na/omarchy-mac) was deleted along with its maintainer's GitHub account in mid‑2026. This repository preserves the most complete known snapshot of that work and is being kept in sync with upstream [`basecamp/omarchy`](https://github.com/basecamp/omarchy). It is not officially affiliated with the original project.
+> **About this fork.** In May 2026, GitHub suspended the account of Naeem Malik (`malik-na`), the original author of `omarchy-mac`, taking the repository offline. This fork keeps the project available while his account is down, caught up to upstream [`basecamp/omarchy`](https://github.com/basecamp/omarchy). Malik has since migrated the project to Codeberg — its new home is [`codeberg.org/malik-na/omarchy-mac`](https://codeberg.org/malik-na/omarchy-mac).
 
 _This project is not optimized for Parallels or VMs._
 
@@ -16,6 +16,7 @@ _This project is not optimized for Parallels or VMs._
 ## Quick links
 
 - Start installer — `curl https://asahi-alarm.org/installer-bootstrap.sh | sh`
+- Community Discord (500+ members) — https://discord.gg/KNQRk7dMzy
 - Upstream Omarchy — https://omarchy.org/
 - Asahi Linux device support — https://asahilinux.org/fedora/#device-support
 
@@ -34,6 +35,7 @@ _This project is not optimized for Parallels or VMs._
 - [Troubleshooting & FAQ](#troubleshooting--faq)
 - [Removal (uninstall)](#removal-uninstall)
 - [External resources](#external-resources)
+- [Community & support](#community--support)
 - [Acknowledgements](#acknowledgements)
 - [Contributors](#contributors)
 
@@ -237,12 +239,19 @@ There is no automatic uninstaller. Manual removal requires reversing the install
 
 ---
 
+## Community & support
+
+- **Discord** — join the Omarchy Mac community (500+ members): https://discord.gg/KNQRk7dMzy
+- **Buy Naeem Malik a coffee** — the original author maintains this project; donations help support his work: https://buymeacoffee.com/malik2015no
+
+---
+
 ## Acknowledgements
 
 - **DHH and the Omarchy contributors** for creating the upstream [`basecamp/omarchy`](https://github.com/basecamp/omarchy) distribution that this fork tracks.
 - **Asahi Linux and Asahi Alarm** for enabling Linux on Apple Silicon.
-- **Naeem Malik (`malik-na`)** — the original author of `omarchy-mac` and the bulk of the Apple Silicon enablement preserved in this fork's history. The account was deleted in mid‑2026; this fork exists to keep the work usable.
-- **tayowrld** — briefly stewarded the project after the original repo went away, including aarch64 menu fixes ([`tayowrld/omarchy-mac-menu`](https://github.com/tayowrld/omarchy-mac-menu)).
+- **Naeem Malik (`malik-na`)** — the original author of `omarchy-mac` and the bulk of the Apple Silicon enablement preserved in this fork's history. His GitHub account was suspended in May 2026; this fork keeps the work available while it's down. He now maintains the project on [Codeberg](https://codeberg.org/malik-na/omarchy-mac).
+- **tayowrld** — helped keep the project going while the original repo was offline, including aarch64 menu fixes ([`tayowrld/omarchy-mac-menu`](https://github.com/tayowrld/omarchy-mac-menu)).
 
 ---
 
