@@ -1,3 +1,7 @@
+> ⚠️ **This repository is an archived mirror.** It existed only to keep `omarchy-mac` available while the original author's GitHub account was suspended (May 2026). The project is back under active development by Naeem Malik at **[codeberg.org/malik-na/omarchy-mac](https://codeberg.org/malik-na/omarchy-mac)** — please use that. This mirror is frozen and no longer maintained.
+
+---
+
 A screenshot to help identify the project:
 
 ![IMG_5776](https://github.com/user-attachments/assets/86b2651c-4b49-4ec5-ae78-023b01e46a15)
